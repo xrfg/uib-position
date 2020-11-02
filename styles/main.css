@@ -1,10 +1,51 @@
+body {
+  padding: 10rem 0;
+  background-color: coral;
+}
+
 .section-bg-pink {
   background-color: magenta;
   padding: 6rem 0;
 }
 
-.headline {
+.section-bg-white {
+  background-color: rgb(255, 255, 255);
+  padding: 6rem 0;
+}
+
+.example-relative .headline {
   position: relative;
   top: 50px;
   left: 50px;
+}
+
+/* Position absolute
+ */
+.example-absolute {
+  position: relative;
+  border: 1px solid slateblue;
+}
+
+.example-absolute .headline {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+/* position fixed
+ */
+.example-fixed .headline {
+  position: fixed;
+}
+
+.chat {
+  position: fixed;
+  bottom: 3%;
+  right: 3%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0 0 20px rgba(160, 160, 160, 0.9);
+  text-align: center;
 }
