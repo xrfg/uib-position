@@ -1,0 +1,10 @@
+.section-bg-pink {
+  background-color: magenta;
+  padding: 6rem 0;
+}
+
+.headline {
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
